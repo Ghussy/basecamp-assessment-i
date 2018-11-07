@@ -24,8 +24,8 @@ var notHakeem = (myName !== "Hakeem Olajuwon");
 
 // #7 Create an if statement that checks the age variable below. If age is greater than 16, then set canDrive to true otherwise set canDrive to false. The canDrive variable will be set by the unit test so do not adjust it.
 
-var Age = ();
-var canDrive = ();
+var Age;
+var canDrive;
 
 
 if (Age>16){canDriv = true}
@@ -43,7 +43,7 @@ function responseCreator (ParamValue){
 };
 
 return responseCreator ();
-}
+
 
 // #9 Create a function called 'sum' that takes in one parameter and returns the sum of that parameter added it itself.
 
